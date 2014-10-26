@@ -15,7 +15,7 @@ PERCENTAGE_PATTERN = '\d+(\.\d+)?%'
 DATE_STRING_PATTERN = \
     '(%(days)s) (?P<day>\d+) (?P<month>%(months)s) (?P<year>\d{4})'
 FILENAME_DATE_FORMAT = '%Y.%m.%d'
-FILENAME_FORMAT = 'data.%s.txt'
+FILENAME_FORMAT = 'data.%s.json'
 
 # Parse config file
 config = ConfigParser()
