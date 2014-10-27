@@ -1,0 +1,14 @@
+{
+    "Govia Thameslink Railway": {
+        "PPM": 80.03, 
+        "Right Time": 58.83
+    }, 
+    "Great Northern": {
+        "PPM": 79.84, 
+        "Right Time": 59.68
+    }, 
+    "Thameslink": {
+        "PPM": 80.15, 
+        "Right Time": 58.29
+    }
+}
