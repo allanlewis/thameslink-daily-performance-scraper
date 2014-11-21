@@ -5,7 +5,6 @@ import urllib2
 from ast import literal_eval
 from ConfigParser import ConfigParser
 from datetime import datetime
-from pprint import pprint
 
 from bs4 import BeautifulSoup, SoupStrainer
 
