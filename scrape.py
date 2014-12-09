@@ -13,8 +13,10 @@ from bs4 import BeautifulSoup, SoupStrainer
 # CONSTANTS
 DATE_FORMAT = '%A %d %B %Y'
 PERCENTAGE_PATTERN = r'\d+(\.\d+)?%'
+# '\s' (whitespace) used below because sometimes a non-breaking space (char 160)
+# is used instead of a regular space
 DATE_STRING_PATTERN = \
-    r'(%(days)s) (?P<day>\d+) (?P<month>%(months)s) (?P<year>\d{4})'
+    r'(%(days)s)\s(?P<day>\d+)\s(?P<month>%(months)s)\s(?P<year>\d{4})'
 FILENAME_DATE_FORMAT = '%Y.%m.%d.%a'
 FILENAME_FORMAT = 'data.%s.json'
 
