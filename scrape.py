@@ -46,8 +46,8 @@ def main():
     days = '|'.join(calendar.day_name)
     months = '|'.join(calendar.month_name[1:])  # Element 0 is empty
     date_pattern = re.compile(
-        DATE_STRING_PATTERN % {'days': days, 'months': months})
-    date_string = content.find(text=date_pattern)
+        DATE_STRING_PATTERN % {'days': days, 'months': months}, re.U)
+    date_string = content.find(text=date_pattern).replace(u'\xa0', ' ')
     report_date = datetime.strptime(date_string, DATE_FORMAT).date()
 
     # Parse data
