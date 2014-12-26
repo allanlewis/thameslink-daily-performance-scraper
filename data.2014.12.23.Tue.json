@@ -1,0 +1,14 @@
+{
+    "Great Northern": {
+        "PPM": 93.47, 
+        "Right Time": 64.74
+    }, 
+    "Great Northern and Thameslink (combined)": {
+        "PPM": 92.24, 
+        "Right Time": 70.77
+    }, 
+    "Thameslink": {
+        "PPM": 91.35, 
+        "Right Time": 75.14
+    }
+}
