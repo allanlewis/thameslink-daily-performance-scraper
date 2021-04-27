@@ -1,5 +1,5 @@
 ## The following requirements were added by pip --freeze:
 beautifulsoup4==4.3.2
 colorama==0.3.2
-py==1.4.26
+py==1.10.0
 pytest==2.6.4
